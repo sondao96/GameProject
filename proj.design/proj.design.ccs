@@ -1,0 +1,63 @@
+<Solution>
+  <PropertyGroup Name="proj.design" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="flag">
+          <Image Name="Asset 10.png" />
+          <Image Name="Asset 11.png" />
+          <Image Name="Asset 12.png" />
+          <Image Name="Asset 13.png" />
+          <Image Name="Asset 14.png" />
+          <Image Name="Asset 19.png" />
+          <Image Name="Asset 2.png" />
+          <Image Name="Asset 20.png" />
+          <Image Name="Asset 4.png" />
+          <Image Name="Asset 6.png" />
+          <Image Name="Asset 7.png" />
+          <Image Name="Asset 8.png" />
+          <Image Name="Asset 9.png" />
+          <Image Name="bg.png" />
+          <Image Name="c2.png" />
+          <Image Name="c3.png" />
+          <Image Name="game continue button.png" />
+          <Image Name="game correct answer.png" />
+          <Image Name="game correct.png" />
+          <Image Name="game quit button.png" />
+          <Image Name="game wrong color.png" />
+          <Image Name="icon levels.png" />
+          <Image Name="icon profile.png" />
+          <Image Name="icon rate.png" />
+          <Image Name="icon scores.png" />
+          <Image Name="icon shop.png" />
+          <Image Name="logo.png" />
+          <Image Name="main daily challenge.png" />
+          <Image Name="main fb login.png" />
+          <Image Name="main g login.png" />
+          <Image Name="main play button.png" />
+          <Image Name="main slot button.png" />
+          <Image Name="top coins.png" />
+          <Image Name="top icon back.png" />
+          <Image Name="top icon settings.png" />
+          <Image Name="Untitled-1.png" />
+          <Image Name="Untitled-2.png" />
+          <Image Name="Untitled-3.png" />
+          <Image Name="Untitled-4.png" />
+        </Folder>
+        <Folder Name="fonts">
+          <TTF Name="arial.ttf" />
+          <TTF Name="FredokaOne-Regular.ttf" />
+          <TTF Name="Marker Felt.ttf" />
+        </Folder>
+        <Image Name="a1.png" />
+        <Image Name="a2.png" />
+        <Image Name="a3.png" />
+        <Image Name="a4.png" />
+        <Image Name="Asset 1.png" />
+        <Project Name="flagColor.csd" Type="Layer" />
+        <Project Name="flagColor2.csd" Type="Layer" />
+        <Project Name="flagColor3.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
