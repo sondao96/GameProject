@@ -85,6 +85,7 @@ bool GameScene::init()
 	}
 
 
+
 	auto i_color = flagName[section][sumFlag[section].c_str()]["color"].GetArray();
 	auto name = flagName[section][sumFlag[section].c_str()]["csb_flag"].GetString();
 	auto flag_color = flagName[section][sumFlag[section].c_str()]["flag_color"].GetArray();
