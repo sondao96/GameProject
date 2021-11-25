@@ -197,7 +197,7 @@ void GameScene::checkWin() {
 	addChild(textCorrect);
 	buttonContinues->addTouchEventListener([&](Ref* sender, ui::Widget::TouchEventType type) {
 		if (type == ui::Widget::TouchEventType::ENDED) {
-			if (sumFlag.size() > 0) {
+			if (v.size() < sumFlag.size()) {
 				auto next = GameScene::createScene();
 				Director::getInstance()->replaceScene(TransitionFade::create(1, next, Color3B(0, 255, 255)));
 			}
