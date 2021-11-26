@@ -8,8 +8,10 @@
 #include<random>
 #include "cocos2d.h"
 #include <algorithm>
-USING_NS_CC;
 
+
+USING_NS_CC;
+using namespace ui;
 
 
 class GameScene : public cocos2d::Layer
@@ -32,11 +34,10 @@ public:
     cocos2d::Label* label;
     float _time;
     
-    std::vector<ui::ImageView*>colorCorrect;
+    std::vector<int>listNumber;
+    std::vector<ui::ImageView*>listColor;
     std::vector<Node*>listFlagColor;
 
-
-    
     int cnt = 0;
     int countCorrect = 0;
     int countWrong = 0;
@@ -50,6 +51,6 @@ public:
     template<typename T>
     void shuffle(std::vector<T>& v);
     
-
+    ui::ImageView* image;
 };
 #endif // __GAME_SCENE_H__

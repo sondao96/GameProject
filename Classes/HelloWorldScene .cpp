@@ -4,6 +4,7 @@
 #include"cocostudio/CocoStudio.h"
 #include"gamescene.h"
 USING_NS_CC;
+using  namespace  CocosDenshion;
 
 Scene* HelloWorld::createScene()
 {
@@ -29,6 +30,9 @@ bool HelloWorld::init()
     {
         return false;
     }
+    
+
+
     auto mainMenu = CSLoader::getInstance()->createNode("flagColor.csb");
     this->addChild(mainMenu);
     auto button = mainMenu->getChildByName<ui::Button*>("buttonPlay");
@@ -36,6 +40,7 @@ bool HelloWorld::init()
     button->addClickEventListener([=](Ref*) {
         auto play = GameScene::createScene();
         Director::getInstance()->replaceScene(TransitionFade::create(2,play,Color3B(0,255,255)));
+        
         });
     
     return true;
